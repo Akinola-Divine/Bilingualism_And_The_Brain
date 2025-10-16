@@ -18,6 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -40,14 +41,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -79,7 +81,39 @@
       <option name="project" value="LOCAL" />
       <updated>1760616874438</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Initial model to test the hypothesis that bilingualism data can predict the cognitive Flanker Effect.&#10;&#10;A simple Linear Regression model was trained and evaluated. Feature selection was performed to improve performance:&#10;&#10;- The initial model with 5 features performed poorly (R² &lt; -0.6).&#10;&#10;- Removing features 'AoA' and 'Immqual' (initially five 'Age', 'Otherlang', 'Immersion', 'AoA', 'Immqual', though 'Age' doesn't have a significant effect on model score) reduced noise, improved the score, and simplified the model.&#10;&#10;- Polynomial regression (degree=2) was used but resulted in a poorer RMSE score than previous.&#10;&#10;&#10;The final model yields an R² of -0.14 and an RMSE of 14.15 ms. These results suggest that bilingualism alone is not a strong linear predictor of the Flanker Effect.">
+      <option name="closed" value="true" />
+      <created>1760616904849</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1760616904849</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Initial model to test the hypothesis that bilingualism data can predict the cognitive Flanker Effect.&#10;&#10;A simple Linear Regression model was trained and evaluated. Feature selection was performed to improve performance:&#10;&#10;- The initial model with 5 features performed poorly (R² &lt; -0.6).&#10;&#10;- Removing features 'AoA' and 'Immqual' (initially five 'Age', 'Otherlang', 'Immersion', 'AoA', 'Immqual', though 'Age' doesn't have a significant effect on model score) reduced noise, improved the score, and simplified the model.&#10;&#10;- Polynomial regression (degree=2) was used but resulted in a poorer RMSE score than previous.&#10;&#10;&#10;The final model yields an R² of -0.14 and an RMSE of 14.15 ms. These results suggest that bilingualism alone is not a strong linear predictor of the Flanker Effect.">
+      <option name="closed" value="true" />
+      <created>1760616962829</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1760616962829</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Initial model to test the hypothesis that bilingualism data can predict the cognitive Flanker Effect.&#10;&#10;A simple Linear Regression model was trained and evaluated. Feature selection was performed to improve performance:&#10;&#10;- The initial model with 5 features performed poorly (R² &lt; -0.6).&#10;&#10;- Removing features 'AoA' and 'Immqual' (initially five 'Age', 'Otherlang', 'Immersion', 'AoA', 'Immqual', though 'Age' doesn't have a significant effect on model score) reduced noise, improved the score, and simplified the model.&#10;&#10;- Polynomial regression (degree=2) was used but resulted in a poorer RMSE score than previous.&#10;&#10;&#10;The final model yields an R² of -0.14 and an RMSE of 14.15 ms. These results suggest that bilingualism alone is not a strong linear predictor of the Flanker Effect.">
+      <option name="closed" value="true" />
+      <created>1760616999770</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1760616999770</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Initial model to test the hypothesis that bilingualism data can predict the cognitive Flanker Effect.&#10;&#10;A simple Linear Regression model was trained and evaluated. Feature selection was performed to improve performance:&#10;&#10;- The initial model with 5 features performed poorly (R² &lt; -0.6).&#10;&#10;- Removing features 'AoA' and 'Immqual' (initially five 'Age', 'Otherlang', 'Immersion', 'AoA', 'Immqual', though 'Age' doesn't have a significant effect on model score) reduced noise, improved the score, and simplified the model.&#10;&#10;- Polynomial regression (degree=2) was used but resulted in a poorer RMSE score than previous.&#10;&#10;&#10;The final model yields an R² of -0.14 and an RMSE of 14.15 ms. These results suggest that bilingualism alone is not a strong linear predictor of the Flanker Effect.">
+      <option name="closed" value="true" />
+      <created>1760617094290</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1760617094290</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
