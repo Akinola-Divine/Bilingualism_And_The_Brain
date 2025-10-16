@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5742318-8541-4bc8-943d-3ace7b75eeb8" name="Changes" comment="Initial model to test the hypothesis that bilingualism data can predict the cognitive Flanker Effect.&#10;&#10;A simple Linear Regression model was trained and evaluated. Feature selection was performed to improve performance:&#10;&#10;- The initial model with 5 features performed poorly (R² &lt; -0.6).&#10;&#10;- Removing features 'AoA' and 'Immqual' (initially five 'Age', 'Otherlang', 'Immersion', 'AoA', 'Immqual', though 'Age' doesn't have a significant effect on model score) reduced noise, improved the score, and simplified the model.&#10;&#10;- Polynomial regression (degree=2) was used but resulted in a poorer RMSE score than previous.&#10;&#10;&#10;The final model yields an R² of -0.14 and an RMSE of 14.15 ms. These results suggest that bilingualism alone is not a strong linear predictor of the Flanker Effect." />
+    <list default="true" id="a5742318-8541-4bc8-943d-3ace7b75eeb8" name="Changes" comment="Initial model to test the hypothesis that bilingualism data can predict the cognitive Flanker Effect.&#10;&#10;A simple Linear Regression model was trained and evaluated. Feature selection was performed to improve performance:&#10;&#10;- The initial model with 5 features performed poorly (R² &lt; -0.6).&#10;&#10;- Removing features 'AoA' and 'Immqual' (initially five 'Age', 'Otherlang', 'Immersion', 'AoA', 'Immqual', though 'Age' doesn't have a significant effect on model score) reduced noise, improved the score, and simplified the model.&#10;&#10;- Polynomial regression (degree=2) was used but resulted in a poorer RMSE score than previous.&#10;&#10;&#10;The final model yields an R² of -0.14 and an RMSE of 14.15 ms. These results suggest that bilingualism alone is not a strong linear predictor of the Flanker Effect.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Measuring Cognitive Skills Hypothesis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Measuring Cognitive Skills Hypothesis.ipynb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +50,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main"
   }
 }]]></component>
@@ -113,7 +117,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760617094290</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Initial model to test the hypothesis that bilingualism data can predict the cognitive Flanker Effect.&#10;&#10;A simple Linear Regression model was trained and evaluated. Feature selection was performed to improve performance:&#10;&#10;- The initial model with 5 features performed poorly (R² &lt; -0.6).&#10;&#10;- Removing features 'AoA' and 'Immqual' (initially five 'Age', 'Otherlang', 'Immersion', 'AoA', 'Immqual', though 'Age' doesn't have a significant effect on model score) reduced noise, improved the score, and simplified the model.&#10;&#10;- Polynomial regression (degree=2) was used but resulted in a poorer RMSE score than previous.&#10;&#10;&#10;The final model yields an R² of -0.14 and an RMSE of 14.15 ms. These results suggest that bilingualism alone is not a strong linear predictor of the Flanker Effect.">
+      <option name="closed" value="true" />
+      <created>1760618012504</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1760618012504</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,6 +142,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial model to test the hypothesis that bilingualism data can predict the cognitive Flanker Effect.&#10;&#10;A simple Linear Regression model was trained and evaluated. Feature selection was performed to improve performance:&#10;&#10;- The initial model with 5 features performed poorly (R² &lt; -0.6).&#10;&#10;- Removing features 'AoA' and 'Immqual' (initially five 'Age', 'Otherlang', 'Immersion', 'AoA', 'Immqual', though 'Age' doesn't have a significant effect on model score) reduced noise, improved the score, and simplified the model.&#10;&#10;- Polynomial regression (degree=2) was used but resulted in a poorer RMSE score than previous.&#10;&#10;The final model yields an R² of -0.14 and an RMSE of 14.15 ms. These results suggest that bilingualism alone is not a strong linear predictor of the Flanker Effect." />
     <MESSAGE value="Initial commit" />
+    <MESSAGE value="Resolve merge conflicts and stop tracking .idea files" />
     <MESSAGE value="Initial model to test the hypothesis that bilingualism data can predict the cognitive Flanker Effect.&#10;&#10;A simple Linear Regression model was trained and evaluated. Feature selection was performed to improve performance:&#10;&#10;- The initial model with 5 features performed poorly (R² &lt; -0.6).&#10;&#10;- Removing features 'AoA' and 'Immqual' (initially five 'Age', 'Otherlang', 'Immersion', 'AoA', 'Immqual', though 'Age' doesn't have a significant effect on model score) reduced noise, improved the score, and simplified the model.&#10;&#10;- Polynomial regression (degree=2) was used but resulted in a poorer RMSE score than previous.&#10;&#10;&#10;The final model yields an R² of -0.14 and an RMSE of 14.15 ms. These results suggest that bilingualism alone is not a strong linear predictor of the Flanker Effect." />
     <option name="LAST_COMMIT_MESSAGE" value="Initial model to test the hypothesis that bilingualism data can predict the cognitive Flanker Effect.&#10;&#10;A simple Linear Regression model was trained and evaluated. Feature selection was performed to improve performance:&#10;&#10;- The initial model with 5 features performed poorly (R² &lt; -0.6).&#10;&#10;- Removing features 'AoA' and 'Immqual' (initially five 'Age', 'Otherlang', 'Immersion', 'AoA', 'Immqual', though 'Age' doesn't have a significant effect on model score) reduced noise, improved the score, and simplified the model.&#10;&#10;- Polynomial regression (degree=2) was used but resulted in a poorer RMSE score than previous.&#10;&#10;&#10;The final model yields an R² of -0.14 and an RMSE of 14.15 ms. These results suggest that bilingualism alone is not a strong linear predictor of the Flanker Effect." />
   </component>
